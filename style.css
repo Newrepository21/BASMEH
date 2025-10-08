@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+.hero {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    margin-top: 56px; /* لتجنب تداخل مع الـ navbar الثابت */
+}
+
+.product-card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-add {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
+
+#login-form, #register-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 50px auto;
+}
